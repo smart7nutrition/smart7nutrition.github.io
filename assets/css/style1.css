@@ -1,6 +1,10 @@
 body{
-    max-width: 100%;
-    background-color: rgb(225, 230, 238);
+    margin: 30px auto;
+    max-width: 800px;
+    background: #333;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 0 20px;
 }
 
 table {

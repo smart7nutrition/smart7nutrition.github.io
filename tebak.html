@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Tebak Tanggal Lahir</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style1.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://drive.google.com/drive/folders/1exBNXyBRPX4QxvlYdrVHZbkzzu06TfB1?usp=sharing">Materi</a>
+            <a class="nav-link" href="https://drive.google.com/drive/folders/1PE0CfIgJb_E552aJOT3fDto2pp6uMkdE">Dokumentasi</a>
+            <a class="nav-link" href="about.html">Anggota</a>
+            <a class="nav-link" href="koding.html">Kodingan</a>
+            <a class="nav-link" href="tebak.html">Game</a>
+          </div>
+        </div>
+        <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+      </nav>
+
+  <div class="data">
+    <h1>Main Tebak Angka</h1>
+    <h4>Jika tanggal lahirmu berada pada :</h4>
+    <ul>
+        <ol>
+            1. Tabel 1, kode huruf = a
+        </ol>
+        <ol>
+            2. Tabel 2, kode huruf = b 
+        </ol>
+        <ol>
+            3. Tabel 3, kode huruf = c 
+        </ol>
+        <ol>
+            4. Tabel 4, kode huruf = d
+        </ol>
+        <ol>
+            5. Tabel 5, kode huruf = e 
+        </ol>
+    </ul>
+    <p>Masukkan kode huruf sesuai dengan tanggal lahir kamu berada. Misalnya tanggal lahirmu ada pada Tabel 1 dan Tabel 2, maka kode huruf kamu adalah "ab"</p>
+
+    <div class="input">
+		<input type="text" id="codeHuruf" name="codeHuruf" />
+		<button id="hitung">hitung</button>
+	</div>
+
+    	<!--Tabel 1-->
+	<div class="tabel">
+		<table border="1" cellspacing="0" cellpadding="5">
+			<thead>
+				<tr style="background-color: rgb(247, 68, 68);">
+					<th colspan="4">Tabel 1</th>
+				</tr>
+			</thead>
+		<tbody>	
+			<tr>
+				<td>1</td>
+				<td>3</td>
+				<td>5</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>11</td>
+				<td>13</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>17</td>
+				<td>19</td>
+				<td>21</td>
+				<td>23</td>
+			</tr>
+			<tr>
+				<td>25</td>
+				<td>27</td>
+				<td>29</td>
+				<td>31</td>
+			</tr>
+		</tbody>	
+		</table>
+	
+	</div>	
+
+	<!--Tabel 2-->
+	
+	<div class="tabel">
+	<table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+			<tr style="background-color: rgb(243, 239, 22);">
+				<th colspan="4">Tabel 2</th>
+			</tr>
+		</thead>
+		<tbody>
+        <tr>
+            <td>2</td>
+            <td>3</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>19</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>27</td>
+            <td>30</td>
+            <td>31</td>
+        </tr>
+		</tbody>
+    </table>
+	</div>
+
+	<!--Tabel 3-->
+	<div class="tabel">
+	<table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+			<tr style="background-color: rgb(155, 247, 68);">
+				<th colspan="4">Tabel 3</th>
+			</tr>
+		</thead>
+		<tbody>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+        </tr>
+		</tbody>
+    </table>
+	</div>
+
+	<!--Tabel 4-->
+	<div class="tabel">	
+	<table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+			<tr style="background-color: rgb(51, 173, 243);">
+				<th colspan="4">Tabel 4</th>
+			</tr>
+		</thead>
+		<tbody>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+        </tr>
+		</tbody>
+    </table>
+	</div>
+	
+	<!--Tabel 5-->
+	<div class="tabel">
+	<table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+			<tr style="background-color: rgb(205, 68, 247);">
+				<th colspan="4">Tabel 5</th>
+			</tr>
+		</thead>
+		<tbody>
+        <tr>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+        </tr>
+		</tbody>
+    </table>
+	</div>
+
+  </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
